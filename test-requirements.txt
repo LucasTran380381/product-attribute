@@ -1,0 +1,1 @@
+odoo-addon-product_logistics_uom @ git+https://github.com/LucasTran380381/product-attribute.git@refs/pull/1/head#subdirectory=product_logistics_uom
