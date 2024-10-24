@@ -14,8 +14,8 @@ class ProductProduct(models.Model):
     # volume and weight UOM. In the same time, we need to keep the volume
     # we ensure that no information is lost by storing the volume and weight
     # without rounding.
-    volume = fields.Float()
-    weight = fields.Float()
+    volume = fields.Float(digits=False)
+    weight = fields.Float(digits=False)
 
     product_volume = fields.Float(
         "Volume in product UOM",
